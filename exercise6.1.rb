@@ -11,5 +11,8 @@ elsif (user_choice == "run")
     puts "Distance from home is #{count}"
   elsif (user_choice == "go home")
     break
+  elsif (user_choice != "walk") || (user_choice != "run") || (user_choice != "go home")
+    puts " Your command doesn't exist."
+
 end
 end
