@@ -1,6 +1,6 @@
 count = 0
 while true do
-  puts "Would like to walk or run?"
+  puts "Would you like to walk or run?"
   user_choice = gets.chomp
 
   if (user_choice == "walk")
